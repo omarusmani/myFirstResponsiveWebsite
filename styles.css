@@ -4,26 +4,46 @@ body{
     width:fit-content;
     justify-content: center;
     align-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div{
+    border: red 2px solid;
+
 }
 .welcome{
     display:flex;
     border: red 2px solid;
+    background-color: aqua;
     width:auto;
+    font-size: 25pt;
     height: 500px;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 0px;
+}
+.welcomestat{
+    border: red 2px solid;
 
-   
 }
 .Title{
+    display: flex;
     flex-direction: row;
+
 }
+
 .Title1{
+    display: flex;
+    flex-direction: column;
     border: red 2px solid;
 }
 .Title2{
+    display: flex;
+    flex-direction: column;
     border: red 2px solid;  
 }
 .Title3{
+    display: flex;
+    flex-direction: column;
     border: red 2px solid;
 }
