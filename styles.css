@@ -1,0 +1,29 @@
+body{
+    display:flex;
+    flex-direction: column;
+    width:fit-content;
+    justify-content: center;
+    align-content: center;
+}
+.welcome{
+    display:flex;
+    border: red 2px solid;
+    width:auto;
+    height: 500px;
+    justify-content: center;
+    align-content: center;
+
+   
+}
+.Title{
+    flex-direction: row;
+}
+.Title1{
+    border: red 2px solid;
+}
+.Title2{
+    border: red 2px solid;  
+}
+.Title3{
+    border: red 2px solid;
+}
