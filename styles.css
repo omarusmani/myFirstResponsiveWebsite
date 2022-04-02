@@ -12,7 +12,7 @@ body{
 }
 .welcome{
     display:flex;
-    border: red 2px solid;
+    border: rgb(51, 2, 29) 2px solid;
     background-color: aqua;
     width:auto;
     font-size: 25pt;
@@ -23,27 +23,40 @@ body{
     padding: 0px;
 }
 .welcomestat{
-    border: red 2px solid;
+    border: rgb(255, 251, 0) 2px solid;
 
 }
 .Title{
+    border: rgb(36, 34, 105) 2px solid;
     display: flex;
     flex-direction: row;
+    width:auto;
 
 }
 
 .Title1{
     display: flex;
     flex-direction: column;
-    border: red 2px solid;
+    border: rgb(0, 0, 0) 2px solid;
 }
 .Title2{
     display: flex;
     flex-direction: column;
-    border: red 2px solid;  
+    border: rgb(0, 0, 0) 2px solid;  
 }
 .Title3{
     display: flex;
     flex-direction: column;
+    border: rgb(0, 0, 0) 2px solid;
+}
+
+.title{
+    justify-content: center;
+    align-items: center;
+    border: red 2px solid;
+}
+.text{
+
+    text-align: center;
     border: red 2px solid;
 }
